@@ -1,0 +1,35 @@
+.footer {
+  margin-top: 48px;
+  padding: 32px 24px;
+  background: #0f172a;
+  color: #e2e8f0;
+  display: grid;
+  gap: 12px;
+  justify-items: center;
+}
+
+.footer__brand {
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.02em;
+}
+
+.footer__text {
+  margin: 0;
+  text-align: center;
+  color: #cbd5e1;
+}
+
+.footer__links {
+  display: flex;
+  gap: 12px;
+}
+
+.footer__links a {
+  color: #e2e8f0;
+  text-decoration: none;
+}
+
+.footer__links a:hover {
+  color: var(--color-primary);
+}
